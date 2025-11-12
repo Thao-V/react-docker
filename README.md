@@ -16,4 +16,5 @@
 docker build -t react-app:latest .
 kubectl rollout restart deployment react-app
 3. Stop minikube: minikube stop
+4. Cleanup: minikube delete
 # Confirm connection in Minikube Docker: `docker info | grep "Name:"`
